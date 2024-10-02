@@ -1,0 +1,39 @@
+body{
+    background-color: #4c4e52;
+}
+
+.header {
+  background-image: url('https://tecdicas.com/content/images/2019/11/a-historia-da-informatica.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+.card-custom {
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #32373d;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMR - Tio Meio Rico</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAggAAeXYKAN63/wDxahQA393/APA83wC3X4AA//8AAJ0GXwA06ZsAYnhOAMETTACdyIAAGrZOAJAGAAB5UUwAWrMAAHhfcABIRAAAwTgKAO/bgADbi5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLCwsLCwsLCwsLCwsLDhEQDAwMDAwMDAwMDAwMEAsRDAQVFRUVFRUVFRUVBAwLEQwVAwMDAwMDEwgDAxUMCxEMFQICAgICBg4ODgIVDAsRDBUCAgICAg4DAw4CFQwLEQwVBAQCAgINCQAODhUMCxEMFQMUBAQOEgADAw4VDAsRDBUDAwMEBAkJAw4OFQwLEQwVAwMDAwQOAA4OBBUMCxEMFQcDAwcEBwoBDgQVDAsRDBUEBAcEBAQEEg4EFQwLEQwVBAQEBAQEBA4EBBUMCxEMBBUVFRUVFRUVFRUEDAsREAwMDAwMDAwMDAwMDBALBREREREREREREREREQ8PCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Conheça agora nossos cursos tecnológicos</h1>
+      <p>Aprenda com os melhores cursos online e avance na sua carreira!</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card card-custom p-4">
+          <div class="card-body">
+            <h4 class="card-title text-center">Inscreva-se em um curso agora!</h4>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="sobrenome" class="form-label">Sobrenome</label>
+                  <input type="text" class="form-control" id="sobrenome" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço Completo</label>
+                <input type="text" class="form-control" id="endereco" required>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="cep" class="form-label">CEP</label>
+                  <input type="text" class="form-control" id="cep" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" id="telefone" required>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="usuario" class="form-label">Usuário</label>
+                  <input type="text" class="form-control" id="usuario" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="senha" required>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="curso" class="form-label">Curso</label>
+                  <select class="form-select" id="curso" required>
+                    <option selected disabled>Escolha o curso...</option>
+                    <option value="1">Curso de Programação POO</option>
+                    <option value="2">Curso de Bootstrap</option>
+                    <option value="3">Curso de Design Gráfico</option>
+                    <option value="4">Curso de Marketing Digital</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="pagamento" class="form-label">Forma de Pagamento</label>
+                  <select class="form-select" id="pagamento" required>
+                    <option selected disabled>Escolha o pagamento...</option>
+                    <option value="credito">Cartão de Crédito</option>
+                    <option value="boleto">Boleto Bancário</option>
+                    <option value="pix">PIX</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="estado" class="form-label">Estado</label>
+                  <input type="text" class="form-control" id="estado" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="pais" class="form-label">País</label>
+                  <input type="text" class="form-control" id="pais" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="idade" class="form-label">Idade</label>
+                <input type="number" class="form-control" id="idade" required>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">Inscrever-se</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-5">
+    <div class="container">
+      <p>&copy; 2024 - Cursos Tio Meio Rico. Todos os direitos reservados.</p>
+      <p><a>Termos de Uso</a> | <a>Política de Privacidade</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
